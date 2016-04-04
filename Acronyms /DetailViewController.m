@@ -16,6 +16,7 @@
 @synthesize detailMeaningArray;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"CellIdentifier");
     
 }
 

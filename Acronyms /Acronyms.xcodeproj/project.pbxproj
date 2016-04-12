@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3D384A1CBDB9F9005E8D25 /* MyViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D38491CBDB9F9005E8D25 /* MyViewC.swift */; };
 		A8432E9B1BC5C14000AA8C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8432E9A1BC5C14000AA8C8C /* main.m */; };
 		A8432E9E1BC5C14000AA8C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8432E9D1BC5C14000AA8C8C /* AppDelegate.m */; };
 		A8432EA41BC5C14000AA8C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8432EA21BC5C14000AA8C8C /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		942878CA817F8747B57289F2 /* Pods-Acronyms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acronyms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acronyms/Pods-Acronyms.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3D38481CBDB9F9005E8D25 /* Acronyms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acronyms-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B3D38491CBDB9F9005E8D25 /* MyViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewC.swift; sourceTree = "<group>"; };
 		A8432E951BC5C14000AA8C8C /* Acronyms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acronyms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8432E991BC5C14000AA8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8432E9A1BC5C14000AA8C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				A8A470D91C3DE1D100C688F0 /* MainViewController.m */,
 				A85361791C3E53100042FA12 /* DetailViewController.h */,
 				A853617A1C3E53100042FA12 /* DetailViewController.m */,
+				9B3D38491CBDB9F9005E8D25 /* MyViewC.swift */,
+				9B3D38481CBDB9F9005E8D25 /* Acronyms-Bridging-Header.h */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 		A8432E8D1BC5C14000AA8C8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Sumitha Palanisamy";
 				TargetAttributes = {
@@ -308,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3D384A1CBDB9F9005E8D25 /* MyViewC.swift in Sources */,
 				A8A470D11C3DE14D00C688F0 /* ServiceRequest.m in Sources */,
 				A853617B1C3E53100042FA12 /* DetailViewController.m in Sources */,
 				A8432E9E1BC5C14000AA8C8C /* AppDelegate.m in Sources */,
@@ -439,9 +446,12 @@
 			baseConfigurationReference = 942878CA817F8747B57289F2 /* Pods-Acronyms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Acronyms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Acronyms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -450,9 +460,11 @@
 			baseConfigurationReference = C4AFBF8E8DA9CEF29C11A496 /* Pods-Acronyms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Acronyms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Acronyms-Bridging-Header.h";
 			};
 			name = Release;
 		};

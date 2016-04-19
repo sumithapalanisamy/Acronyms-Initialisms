@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B3D384A1CBDB9F9005E8D25 /* MyViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D38491CBDB9F9005E8D25 /* MyViewC.swift */; };
+		9BEF076C1CC6A31000C7BEC9 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF076B1CC6A31000C7BEC9 /* SampleViewController.swift */; };
 		A8432E9B1BC5C14000AA8C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8432E9A1BC5C14000AA8C8C /* main.m */; };
 		A8432E9E1BC5C14000AA8C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8432E9D1BC5C14000AA8C8C /* AppDelegate.m */; };
 		A8432EA41BC5C14000AA8C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8432EA21BC5C14000AA8C8C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		942878CA817F8747B57289F2 /* Pods-Acronyms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acronyms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acronyms/Pods-Acronyms.debug.xcconfig"; sourceTree = "<group>"; };
 		9B3D38481CBDB9F9005E8D25 /* Acronyms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acronyms-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B3D38491CBDB9F9005E8D25 /* MyViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewC.swift; sourceTree = "<group>"; };
+		9BEF076B1CC6A31000C7BEC9 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		A8432E951BC5C14000AA8C8C /* Acronyms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acronyms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8432E991BC5C14000AA8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8432E9A1BC5C14000AA8C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		A8432E8C1BC5C14000AA8C8C = {
 			isa = PBXGroup;
 			children = (
+				9BEF076B1CC6A31000C7BEC9 /* SampleViewController.swift */,
 				A8432E9C1BC5C14000AA8C8C /* AppDelegate.h */,
 				A8432E9D1BC5C14000AA8C8C /* AppDelegate.m */,
 				A8A470D31C3DE17700C688F0 /* Controller */,
@@ -320,6 +323,7 @@
 				A8432E9E1BC5C14000AA8C8C /* AppDelegate.m in Sources */,
 				A8432E9B1BC5C14000AA8C8C /* main.m in Sources */,
 				A8A470DA1C3DE1D100C688F0 /* MainViewController.m in Sources */,
+				9BEF076C1CC6A31000C7BEC9 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

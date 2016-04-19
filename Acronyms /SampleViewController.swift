@@ -11,5 +11,6 @@ import Cocoa
 class SampleViewController: UIViewController {
     var myview:MyViewC!
     myview = nil
+    var hello = "String"
 
 }
